@@ -1,0 +1,92 @@
+body{
+	background: linear-gradient(to right, #0099f7, #f11712);
+	margin:2%;
+	font-size: 150%;
+
+}
+div{
+	text-align: center;
+}
+nav a {
+    background-color: rgba(218,234,213,0.60);
+    color: #000000; /* Black */
+    display: inline-block;
+    padding: 10px;
+    margin: 5%; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    height: 40px; 
+    width: 100px;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+header {
+    background: #C0C0C0; /* Silver */
+    background-image: url("https://i.ibb.co/7X8rV4j/716109.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 1%;
+}
+h2{
+	color: black; text-align: center;text-transform: uppercase;text-shadow: grey;
+}
+
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 150%;
+}
+h3{
+	color: #666666;
+	background: #00b7ea;
+}
+.left {
+    background: conic-gradient(
+      #fff 0.25turn,
+      #000 0.25turn 0.5turn,
+      #fff 0.5turn 0.75turn,
+      #000 0.75turn
+    ) top left / 25% 25% repeat;
+  border: 1px solid;  
+    width: 15%;
+    float: left;
+    padding: 4% 0; 
+}
+.left img {
+    border: solid 2px grey;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0%;
+    margin-bottom: 5%; 
+  }
+.right {
+    width: 75%;
+    display: inline-block;
+    padding-left: 2%;
+  }
+summary{
+	font-style:normal;
+}
+details{
+	font-style: italic;
+}
+footer{
+	background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+	height:200px;object-fit: scale-down;
+	clear: both;
+}
+img{
+	width: 100px;height: 100px;
+}
+a:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+border: black;transform:scale(1.5);
+}
+a:active{
+background-color: grey;
+}
